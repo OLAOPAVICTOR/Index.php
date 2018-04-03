@@ -158,7 +158,7 @@
                                                 
                                                 <img src="images/Hackerrank.png" style="width: 600px; height: 300px; margin-left: 80px">
                                             </td>
-                                            <td><img src="images/Hackerearth.png" style="width: 300px; height: 600px; margin-left: 80px"></td>
+                                            <td><img src="images/hackerearth.png" style="width: 300px; height: 600px; margin-left: 80px"></td>
                                         </tr>
                                         
                                         <tr>
