@@ -1,0 +1,405 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2018, 1:00:06 PM
+    Author     : OLAOPA
+*/
+
+
+
+    header{
+        width: 100%;
+        height: 150px;
+        background: radial-gradient( saddlebrown,white);
+        background-image: url(images/wallsummer.jpg);
+        margin-bottom: 0px;
+        text-align: center;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 50px;
+        position: relative;
+        animation: welcome 3s infinite linear;
+        transition: all 1s ease;
+    }
+
+    @keyframes welcome{
+            0%{
+                color: pink
+            }
+            25%{
+                color: orange;
+            }
+            50%{
+                color: yellow;
+            }
+            75%{
+                color: lemon;
+            }
+            100%{
+                color: green;
+            }
+        }
+
+
+    header img{
+        width: 100px;
+        height: 100%;
+        float: left;
+        left: 0;
+        position: absolute;
+    }
+
+    nav{
+        width: 98.5%;
+        height: 100px;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    
+    nav button{
+        width: 25%;
+        height: 50%;
+        font-weight: bold;
+        font-family: calibri;
+        float: left;
+        border: 2px solid #000000;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    nav button:hover{
+        border: 2px solid greenyellow;
+        box-shadow: 0px 4px 3px 0px gray
+    }
+
+    body{
+        background-color: white;
+        display: block;
+        animation: animatezoom 2s;
+        }
+        @-webkit-keyframes
+                    animatezoom{
+                        from{
+                            -webkit-transform: scale(0)
+                        }
+                        to{
+                            -webkit-transform: scale(1)
+                        }
+                    }
+
+                    @keyframes animatezoom{
+                        from{
+                            transform: scale(0)
+                        }
+                        to{
+                            transform: scale(1)
+                        }
+                    }
+
+
+
+    .main h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: brush script mt;
+
+    }
+    .main p{
+        text-align: center
+    }
+
+
+    .myh2{
+        background-color: #0033ff;
+        color: brown;
+        font-size: 30px;
+        font-family: Ar Cena;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        margin: 0%;
+        opacity: .4;
+        transition: all 1s ease-in-out;
+    }
+
+    .presentation{
+        width: 50%;
+        margin: auto;
+        padding: 0;
+        border-radius: 10px 10px 0px 0px;
+        background-color: #dddbdb;
+        text-align: center;
+        font-family: calibri;
+        transition: all 1s ease-in-out;
+    }
+
+    .presentation:hover{
+        border: 1px solid blue;
+        width: 80%
+    }
+    .presentation:hover .myh2{
+        opacity: 1;
+        color: darkgray
+    }
+
+    a img:hover{
+    }
+
+    a:hover{
+        text-decoration: underline dashed ;
+    }
+
+    .myp{
+        margin: 5px;
+        height: 100px;
+        overflow-y: scroll;
+        font-size: 20px;
+        transition: all 1s ease-in-out;
+    }
+    .myp:hover{
+        height: 800px;
+
+    }
+
+
+
+    .sub-head{
+        text-align: center;
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .img-container{
+        width: auto;
+    }
+
+    .scroll{
+        position: absolute;
+        width: 60px;
+        white-space: pre-line;
+        padding: 10px;
+        font-weight: bolder;
+        font-family: calibri;
+        font-size: large;
+        background: linear-gradient( blue,palegoldenrod);
+        height: auto;
+        border-radius: 100%;
+        text-align: center;
+        right: 10px;
+        border: 1px solid green;
+        opacity: .6
+    }
+    .scroll:hover{
+        border-color: blue;
+        opacity: 1
+    }
+
+
+    .artwork img{
+        width: 90%;
+        height: 270px;
+        border-radius: 45px;
+        margin-left: 5%;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+
+        @keyframes slidein{
+            from{
+                margin-left: 100%;
+                width:300%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+
+            }
+        }
+
+    .git-hub{
+        width: 100%;
+        overflow-x: scroll;        
+    }
+    .git-hub::-webkit-scrollbar{
+        display: none
+    }       /* Makes the scroll  invisible.*/
+    
+    .git-table{
+        text-align: center;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-spacing: 10px;
+    }
+
+    .git-table caption{
+        font-family: fantasy;
+        font-weight: bolder;
+        font-size: large;
+        margin-bottom: 30px;
+    }
+
+    .git-table tr td{
+        margin-top: 50px;
+        border: 1px solid lime;
+        border-radius: 10px;
+        width: 400px;  
+        height: 150px;
+        box-shadow: 3px 5px  blue;
+        column-gap: 40px;
+        cursor: pointer;
+        transition: box-shadow 1s ease-in-out;
+    }
+
+    .git-table tr td div{
+        width: 380px;
+        height: 140px;
+    }
+
+    .git-table tr td:hover{
+        animation: table-border 3s infinite ease-in-out;
+            border: 2px solid green;
+    }
+
+    @keyframes table-border{
+
+            20%{
+                box-shadow: 3px 6px yellow;
+            }
+            450%{
+                box-shadow: 3px 7px pink;
+            }
+            60%{
+                box-shadow: 3px 6px lemon;
+            }
+            80%{
+                box-shadow: 3px 5px blue;
+            }
+            100%{
+                box-shadow: 3px 4px lime;
+            }
+        }
+
+    #footnote{
+        float: right;
+        text-align: right;
+        background-color: whitesmoke;
+        width: auto;
+        height: auto;
+        white-space: pre-line;
+        box-shadow: 0px 4px 3px 0px grey;
+        font-family: calibri;
+        margin-top: 10px;
+    }
+
+    .social{
+        font-family: cursive;
+        height: 700px;
+        width: 100%;
+        background-color: azure;
+        font-size: 30px
+
+    }
+
+    #linkedin-logo{
+        width: 100px;
+        height: 100px;
+        margin-right: 50px;
+        border-radius: 15px;
+    }
+    #facebook-logo{
+        width: 180px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #facebook-logo:hover, #linkedin-logo:hover{
+        box-shadow: 2px 2px 2px 2px springgreen;
+    }
+
+    .logo2{
+        float: left;
+        text-align: left
+    }
+    
+    
+    .logo2 img{
+        width: 100px;
+        height: 100px;
+        float: left
+    }
+    
+    .logo4{
+        float: right;
+        text-align: right;
+    }
+    
+    
+    .logo4 img{
+        width: 100px;
+        height: 100px;
+        float: right;
+    }
+    
+    
+    .second-section{
+        height: auto;
+        background-color: #e3c5e2;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: darkgrey;
+        padding-top: 100px;
+        padding-bottom: 100px;  
+        padding-left: 50px;
+        padding-right: 50px;
+        overflow-x: scroll;
+
+    }
+    .second-section img{
+        width: 400px;
+        height: 250px;
+        border-radius: 30px;
+        margin-bottom:  0px;
+
+    }
+
+    .second-section p{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: calibri;
+        color: olive
+    }
+
+    #hobby tr td{
+    }
+
+    .conclusion{
+        height: auto;
+        background-color: #524035;
+        text-align: center;
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 30px;
+        color: burlywood;
+        white-space: pre-line;
+    }
+    .conclusion span img{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+
+    footer{
+        width: 100%;
+        height: 200px;
+        padding-top: 50px;
+        background: radial-gradient( #020f0f,brown);
+        color: blue;
+        text-align: center;
+        font-size: larger;
+        font-family: calibri
+    }
+    
