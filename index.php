@@ -46,7 +46,7 @@
                 
                 <div class="artwork">
                    
-                    <img src="images/Felix1.png" alt="">
+                    <img src="images/felix1.png" alt="">
                     
                 </div>
                 </div>
